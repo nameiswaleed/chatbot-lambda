@@ -49,7 +49,7 @@ exports.handler = async (event) => {
         appointmentId: { S: appointmentId },
         patientId: { S: patientId },
         appointmentTime: { S: appointmentTime },
-        status: { B: false },
+        status: { BOOL: false },
       },
     };
 
